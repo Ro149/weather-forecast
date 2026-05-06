@@ -1,0 +1,504 @@
+Started GET "/" for 127.0.0.1 at 2026-05-06 11:18:02 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 7.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | GC: 0.0ms)
+Completed 200 OK in 92ms (Views: 24.6ms | GC: 1.5ms)
+
+
+Started GET "/forecast/show?address=New+Jersey&commit=Search" for 127.0.0.1 at 2026-05-06 11:18:12 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"New Jersey", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 79ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:18:12 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=new+jersey&commit=Search" for 127.0.0.1 at 2026-05-06 11:18:23 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"new jersey", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 58ms (GC: 7.2ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:18:23 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | GC: 1.6ms)
+Completed 200 OK in 8ms (Views: 6.9ms | GC: 1.6ms)
+
+
+Started GET "/forecast/show?address=newyork&commit=Search" for 127.0.0.1 at 2026-05-06 11:18:33 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"newyork", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 40ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:18:33 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=hyderabad&commit=Search" for 127.0.0.1 at 2026-05-06 11:18:43 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"hyderabad", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 50ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:18:44 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2026-05-06 11:18:53 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.7ms)
+Completed 200 OK in 5ms (Views: 3.9ms | GC: 1.2ms)
+
+
+Started GET "/forecast/show?address=90210&commit=Search" for 127.0.0.1 at 2026-05-06 11:19:00 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"90210", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 47ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:19:00 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 1.3ms)
+Completed 200 OK in 3ms (Views: 2.9ms | GC: 1.3ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:29:26 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 9.8ms | GC: 5.9ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | GC: 5.9ms)
+Completed 200 OK in 42ms (Views: 24.3ms | GC: 5.9ms)
+
+
+Started GET "/forecast/show?address=hyderabad&commit=Search" for 127.0.0.1 at 2026-05-06 11:29:31 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"hyderabad", "commit"=>"Search"}
+WeatherService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=94.130.142.35:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:34:in `show'
+Completed 302 Found in 509ms (GC: 0.8ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:29:31 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:33:23 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 7.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | GC: 0.0ms)
+Completed 200 OK in 21ms (Views: 15.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=Tampa&commit=Search" for 127.0.0.1 at 2026-05-06 11:33:28 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"Tampa", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 79ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:33:29 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=New+Jersey&commit=Search" for 127.0.0.1 at 2026-05-06 11:34:08 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"New Jersey", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 75ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:34:08 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 8.1ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:34:11 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=Tampa&commit=Search" for 127.0.0.1 at 2026-05-06 11:34:16 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"Tampa", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 58ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:34:16 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:34:40 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=Tampa&commit=Search" for 127.0.0.1 at 2026-05-06 11:34:44 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"Tampa", "commit"=>"Search"}
+GeocodingService error: NoMethodError: undefined method `pry' for #<Binding:0x000000010f1594c8>
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 5ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:34:44 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:35:00 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 4.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | GC: 0.0ms)
+Completed 200 OK in 39ms (Views: 18.1ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=newyork&commit=Search" for 127.0.0.1 at 2026-05-06 11:35:04 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"newyork", "commit"=>"Search"}
+GeocodingService error: NoMethodError: undefined method `pry' for #<Binding:0x0000000103e66af0>
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 3ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:35:04 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:36:44 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 3.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | GC: 0.0ms)
+Completed 200 OK in 34ms (Views: 14.6ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=New+Jersey&commit=Search" for 127.0.0.1 at 2026-05-06 11:36:48 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"New Jersey", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 244255ms (GC: 31.1ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:42:53 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 3.6ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | GC: 0.4ms)
+Completed 200 OK in 31ms (Views: 13.8ms | GC: 1.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:42:57 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=New+Jersey&commit=Search" for 127.0.0.1 at 2026-05-06 11:43:02 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"New Jersey", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 11523ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:43:14 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:46:25 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 6.0ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | GC: 0.5ms)
+Completed 200 OK in 37ms (Views: 19.2ms | GC: 1.2ms)
+
+
+Started GET "/forecast/show?address=hyderabad&commit=Search" for 127.0.0.1 at 2026-05-06 11:46:30 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"hyderabad", "commit"=>"Search"}
+GeocodingService error: OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=[2a04:4e42:78::347]:443 state=error: certificate verify failed (unable to get local issuer certificate)
+Redirected to http://localhost:3000/forecast/new
+↳ app/controllers/forecasts_controller.rb:20:in `show'
+Completed 302 Found in 7597ms (GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:46:38 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:54:16 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 3.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | GC: 0.0ms)
+Completed 200 OK in 34ms (Views: 15.3ms | GC: 0.1ms)
+
+
+Started GET "/forecast/show?address=Tampa&commit=Search" for 127.0.0.1 at 2026-05-06 11:54:20 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"Tampa", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 3.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | GC: 0.0ms)
+Completed 200 OK in 8598ms (Views: 6.9ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:54:38 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=New+Jersey&commit=Search" for 127.0.0.1 at 2026-05-06 11:55:00 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"New Jersey", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 1048ms (Views: 2.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:55:08 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=denver&commit=Search" for 127.0.0.1 at 2026-05-06 11:55:16 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"denver", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 947ms (Views: 2.9ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:55:21 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=New+Jersey&commit=Search" for 127.0.0.1 at 2026-05-06 11:55:31 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"New Jersey", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 95ms (Views: 2.5ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:55:45 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=newyork&commit=Search" for 127.0.0.1 at 2026-05-06 11:55:50 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"newyork", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 991ms (Views: 1.6ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:56:23 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=Delaware+&commit=Search" for 127.0.0.1 at 2026-05-06 11:56:33 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"Delaware ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 1050ms (Views: 2.0ms | GC: 0.0ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:57:05 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=new+york&commit=Search" for 127.0.0.1 at 2026-05-06 11:57:11 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"new york", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 1127ms (Views: 2.3ms | GC: 0.0ms)
+
+
+Started GET "/forecast/show?address=california&commit=Search" for 127.0.0.1 at 2026-05-06 11:57:26 -0400
+Processing by ForecastsController#show as HTML
+  Parameters: {"address"=>"california", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/show.html.erb within layouts/application
+  Rendered forecasts/show.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 1143ms (Views: 1.5ms | GC: 12.1ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:57:35 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.1ms | GC: 1.4ms)
+
+
+Started GET "/forecast/new" for 127.0.0.1 at 2026-05-06 11:59:55 -0400
+Processing by ForecastsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forecasts/new.html.erb within layouts/application
+  Rendered forecasts/new.html.erb within layouts/application (Duration: 1.8ms | GC: 0.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.8ms)
+Completed 200 OK in 5ms (Views: 4.3ms | GC: 0.8ms)
+
+

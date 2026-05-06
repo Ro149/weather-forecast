@@ -1,0 +1,78 @@
+<style>
+  .search-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    max-width: 560px;
+    margin: 3rem auto;
+  }
+  .search-card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #f8fafc;
+  }
+  .search-card p {
+    color: #94a3b8;
+    margin-bottom: 1.75rem;
+    font-size: 0.95rem;
+  }
+  .input-group {
+    display: flex;
+    gap: 0.75rem;
+  }
+  .input-group input[type="text"] {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #475569;
+    background: #0f172a;
+    color: #f8fafc;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .input-group input[type="text"]:focus {
+    border-color: #60a5fa;
+  }
+  .input-group input[type="text"]::placeholder { color: #64748b; }
+  .btn-primary {
+    padding: 0.75rem 1.5rem;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+  }
+  .btn-primary:hover { background: #1d4ed8; }
+  .examples {
+    margin-top: 1.5rem;
+    color: #64748b;
+    font-size: 0.8rem;
+  }
+  .examples strong { color: #94a3b8; }
+</style>
+
+<div class="search-card">
+  <h2>Get the Forecast</h2>
+  <p>Enter any address, city, or zip code to get the current weather and 7-day forecast.</p>
+
+  <%= form_with url: forecast_path, method: :get, local: true do |f| %>
+    <div class="input-group">
+      <%= f.text_field :address,
+            placeholder: "e.g. 1600 Amphitheatre Pkwy, Mountain View, CA",
+            autofocus: true,
+            required: true %>
+      <%= f.submit "Search", class: "btn-primary" %>
+    </div>
+  <% end %>
+
+  <div class="examples">
+    <strong>Examples:</strong> "New York, NY" &nbsp;·&nbsp; "90210" &nbsp;·&nbsp; "London, UK" &nbsp;·&nbsp; "1 Apple Park Way, Cupertino"
+  </div>
+</div>
