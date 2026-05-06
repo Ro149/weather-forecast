@@ -27,6 +27,7 @@ class GeocodingService
     request = Net::HTTP::Get.new(uri)
     request["User-Agent"] = "WeatherForecastApp/1.0 (rails-assessment)"
     request["Accept"] = "application/json"
+    request["Accept-Language"] = "en"
 
     response = http.request(request)
     data = JSON.parse(response.body)
